@@ -14,7 +14,7 @@ G32 ; level
 M280 S7.43 ; stow pin
 G0 X45 Y45 ; back to first point
 M280 S3.3 ; drop pin
-G30 Z3.9 ; probe is offset 3.9mm
+G30 Z1.65 ; probe offset
 M280 S11.05 ; alarm release and stow pin
 M280 S7.43 ; stow pin - belt and suspenders
 G28 X0 Y0; move X/Y to min endstops
